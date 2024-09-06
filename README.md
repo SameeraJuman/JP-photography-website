@@ -1,5 +1,5 @@
 # JP-photography-website
-View live site at https://sameerajuman.github.io/JP-photography-website/
+View live site at 
  
 How to View the Website files: 
 - Refer to the master branch 
