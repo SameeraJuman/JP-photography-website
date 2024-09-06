@@ -1,4 +1,5 @@
 # JP-photography-website
+View live site at https://sameerajuman.github.io/JP-photography-website/
 Welcome to JP Photography, a portfolio website showcasing a range of photography projects. 
 How to View the Website: 
 - Refer to the master branch 
