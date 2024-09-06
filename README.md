@@ -1,3 +1,5 @@
 # JP-photography-website
 Welcome to JP Photography, a portfolio website showcasing a range of photography projects. 
-How to View the Website: To access the website, simply click on the index.html file. This is the entry point of the website and will load the homepage.
+How to View the Website: 
+- Double-click on "index.html" to open the website in your default web browser.
+- Navigate through the website using the links in the navigation menu to explore different pages such as "Home," "About," "Portfolio," and "Services."
