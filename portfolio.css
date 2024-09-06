@@ -1,0 +1,36 @@
+#portfolio {
+  padding: 50px 0;
+  background-color: black;
+  color: white;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-item {
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.project-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-item h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.project-item p {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+header h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: lightskyblue;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+nav ul li a[href="about.html"] {
+  color: white; /* Change the color of the "About" link */
+}
+nav ul li a:hover[href="about.html"] {
+  color: #00bcd4; /* Change the color of the "About" link */
+}
+nav ul li a:hover {
+  color: #00bcd4;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  font-size: 15px;
+  border: none;
+  outline: none;
+  color: #333;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the Dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change Color of Dropdown Links on Hover */
+.dropdown-content a:hover {
+  background-color: #333;
+}
+
+/* Show the Dropdown Content on Hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+section#hero {
+  background-image: url("images/backgroundreal.png");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+section#hero h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 30;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  text-align: left;
+  margin-left: 50px;
+}
+
+section#hero p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4.5rem;
+  color: rgb(87, 62, 136);
+  line-height: 1.2;
+  margin-bottom: 30px;
+  text-align: left;
+  margin-left: 50px;
+  font-weight: bolder;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #00bcd4; /* Use the same color as the template */
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #01919f; /* Use a slightly darker shade on hover */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
